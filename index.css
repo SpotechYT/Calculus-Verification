@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito');
+
+body {
+  background: url("https://images.hdqwalls.com/wallpapers/snowy-blue-mountains-4k-e5.jpg")
+    no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  
+  font-family: Nunito;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+.center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.box {
+  z-index: -1;
+  background-color: #6d859e;
+  border-radius: 10px;
+  width: fit-content;
+  padding: 20px;
+}
+
+#cred,#ver-ans {
+  border: grey solid 1px;
+  border-radius: 10px;
+  width: 250px;
+  height: 30px;
+  padding-left: 10px;
+}
+
+#login-but {
+  border: grey solid 1px;
+  border-radius: 10px;
+  height: 30px;
+  width: 60px;
+}
+
+#verify {
+  display: none;
+  background-color: rgba(0, 0, 0, 0.5);
+  margin-top: -8px;
+  margin-left: -8px;
+  width: 100vw;
+  height: 100vh;
+}
+
+#verify p {
+  font-size: 50px;
+}

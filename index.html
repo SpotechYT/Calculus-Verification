@@ -1,0 +1,28 @@
+<html>
+<body>
+  <div id="verify">
+    <div class="box center" style="z-index: 1;">
+      <center>
+        <h1>Verify that you are human!</h1>
+        <p><math xmlns="http://www.w3.org/1998/Math/MathML"><munderover accent='false' accentunder='false'><mo>&#x222b;</mo><mn>10</mn><mn>13</mn></munderover><mn>2</mn><mi>x</mi><mi lspace="0.2em" rspace="0">d</mi><mi>x</mi></math></p>
+        <form onsubmit="return integ(event, document.getElementById('ver-ans').value);" action="#">
+          <input id="ver-ans" type="text" name="ver-ans" placeholder="answer" required>
+          <input id="login-but" type="submit" value="Log-In">
+        </form>
+      </center>
+    </div>
+  </div>
+    <div class="box center">
+      <center><h1>Sign-In</h1></center>
+      <form onsubmit="handleLogin(event);" action="#">
+        <label for="username">Username</label><br>
+        <input id="cred" type="text" placeholder="username" required>
+        <br><br>
+        <label for="password">Password</label><br>
+        <input id="cred" type="password" placeholder="password" required>
+        <br><br>
+        <center><input id="login-but" type="submit" value="Log-In"></center>
+      </form>
+    </div>
+</body>
+</html>
